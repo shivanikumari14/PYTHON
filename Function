@@ -42,3 +42,5 @@ def cal_fun(n):
     else:
         print("ODD")
 cal_fun(3)
+
+
