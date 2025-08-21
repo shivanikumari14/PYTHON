@@ -16,3 +16,13 @@ f = open("demo.txt" , "r")
 line1 = f.readline()
 print(line1)
 f.close()
+
+# wite and append the data
+f = open("demo.txt","w")
+f.write("I am a student of ECE. ")
+f.close()
+
+f = open("demo.txt","a")
+f.write("\nI am a  good girl. ")
+f.close()
+
